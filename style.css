@@ -57,14 +57,17 @@ nav {
   color: white;
 }
 
-.prime-section {
-  display: flex;
-  color: white;
+#welcome-prime {
   background: linear-gradient(to right, #000 40%, transparent 58%),
     url(assets/images/welcome-img.jpg);
   background-position: right top;
-  height: 100vh;
   background-size: cover;
+}
+
+.prime-section {
+  display: flex;
+  color: white;
+  height: 100vh;
 }
 .prime-section > .panel {
   display: flex;
@@ -81,16 +84,45 @@ nav {
 }
 
 .side-box > a {
+  width: 15vw;
   display: inline-block;
   margin: 10px 0;
   font-size: 17px;
   text-decoration: none;
   color: white;
-  padding: 13px 60px;
+  padding: 13px 55px;
   font-weight: 600;
   background-color: #0f79af;
   border-radius: 3px;
+  text-align: center;
 }
 .side-box > a :hover {
   background-color: #00a0d6;
+}
+
+#rent-prime {
+  background: linear-gradient(to right, #000 40%, transparent 58%),
+    url(assets/images/more-in-prime.jpg);
+  height: 73vh;
+  background-position: right top;
+  background-size: cover;
+}
+
+.rentel-box{
+  margin: 0;
+  padding: 50px 62px;
+  width: 60vw;
+}
+.rentel-box > h2{
+  width: 35vw;
+  font-weight: 900;
+  font-size: 40px;
+}
+.rentel-box > p{
+  font-size: 21px;
+  margin-bottom: 50px;
+}
+.rentel-box > a{
+  padding: 13px 45px;
+  font-weight: 500;
 }
