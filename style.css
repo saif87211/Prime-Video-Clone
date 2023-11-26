@@ -1,0 +1,64 @@
+@font-face {
+  font-family: AmazonEmber-Ligh;
+  src: url(assets/fonts/AmazonEmber_Lt.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: AmzonEmber-Bold;
+  src: url(assets/fonts/AmazonEmber_Bd.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: AmazonEmber-Ligh;
+}
+
+header {
+  background-color: #00050d;
+}
+nav {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+  width: 80vw;
+}
+.nav-logo {
+  margin: 0 48px 0 24px;
+}
+.nav-links,
+.nav-userhandle {
+  font-family: AmzonEmber-Bold;
+  font-weight: 700;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-userhandle {
+  margin-left: 48px;
+}
+
+.nav-links > li,
+.nav-userhandle > li {
+  display: flex;
+  align-items: center;
+  color: #aaa;
+  padding: 0 16px;
+  font-size: 18px;
+  height: 48px;
+  text-wrap: nowrap;
+}
+.nav-links > li > img,
+.nav-userhandle > li > img {
+  width: 25px;
+}
+
+.nav-links :hover,
+.nav-userhandle :hover {
+    background-color: #191e25;
+    color: white;
+}
+
