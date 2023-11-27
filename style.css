@@ -83,7 +83,7 @@ nav {
   font-size: 24px;
 }
 
-.side-box > a,.btn {
+.btn {
   width: 15vw;
   display: inline-block;
   margin: 10px 0;
@@ -96,7 +96,7 @@ nav {
   border-radius: 3px;
   text-align: center;
 }
-.side-box > a :hover {
+.btn:hover {
   background-color: #00a0d6;
 }
 
@@ -131,6 +131,7 @@ nav {
   background-color: white;
   display: flex;
   padding: 10px 5%;
+  height: 80vh;
 }
 
 .channels-right{
@@ -195,4 +196,27 @@ nav {
 .kids-content{
   padding: 0;
   width: 40vw;
+}
+
+footer{
+  background-color: #222222;
+  height: 20vh;
+  text-align: center;
+  padding-top: 2%;
+  font-size: 15px;
+}
+
+.footer-links{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.footer-links >li >a{
+  color: #0F79AF;
+  text-decoration: none;
+
+}
+footer > p{
+  color: #949494;
 }
