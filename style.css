@@ -83,7 +83,7 @@ nav {
   font-size: 24px;
 }
 
-.side-box > a {
+.side-box > a,.btn {
   width: 15vw;
   display: inline-block;
   margin: 10px 0;
@@ -159,4 +159,40 @@ nav {
 }
 .channels-left > img:hover{
   box-shadow: grey 2px 2px 11px 7px;
+}
+
+#fire-stick-section{
+  background: url(assets/images/amzon-stick.jpg);
+  background-position: left top;
+  background-size: cover;
+  height: 73vh;
+  padding: 45px 70px;
+}
+.fire-stick{
+  color: white;
+  padding-left: 54%;
+}
+.fire-stick > h1{
+  width: 38vw;
+  font-size: 40px;
+}
+.fire-stick > p{
+  margin-top: 24px;
+  font-size: 21px;
+}
+.fire-stick > a{
+  margin-top: 55px;
+}
+
+#kids-section{
+  background: url(assets/images/kids-image.jpg);
+  background-position: right top;
+  background-size: cover;
+  height: 60vh;
+  padding: 45px 70px;
+}
+
+.kids-content{
+  padding: 0;
+  width: 40vw;
 }
