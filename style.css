@@ -8,7 +8,7 @@
   font-family: AmzonEmber;
 }
 
-header {
+body {
   background-color: #00050d;
 }
 nav {
@@ -125,4 +125,38 @@ nav {
 .rentel-box > a{
   padding: 13px 45px;
   font-weight: 500;
+}
+
+.prime-channels{
+  background-color: white;
+  display: flex;
+  padding: 10px 5%;
+}
+
+.channels-right{
+  margin-top: 24px;
+  width: 50%;
+  padding-right: 8%;
+}
+.channels-right > h1{
+  font-size: 44.8px;
+  font-weight: 100;
+}
+.channels-right > p{
+  font-size: 24px;
+  margin-top: 24px;
+}
+.channels-left{
+  width: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+}
+
+.channels-left > img{
+  width: 100%;
+  margin:auto;
+}
+.channels-left > img:hover{
+  box-shadow: grey 2px 2px 11px 7px;
 }
